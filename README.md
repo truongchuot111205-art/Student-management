@@ -52,6 +52,7 @@ Nếu máy tính chưa có .NET Framework 4.8, tải tại:
 ## Hướng dẫn sử dụng
 
 ### 1. Thêm sinh viên mới
+<img width="276" height="464" alt="image" src="https://github.com/user-attachments/assets/a5c888a1-e0ca-44f3-9e81-1edea7ee3773" />
 
 1. Nhập đầy đủ thông tin vào các trường:
    - **MSSV** (Mã số sinh viên)
