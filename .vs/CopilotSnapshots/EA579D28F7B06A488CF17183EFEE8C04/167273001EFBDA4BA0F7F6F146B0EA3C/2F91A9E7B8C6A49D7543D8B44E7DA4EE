@@ -1,0 +1,146 @@
+﻿# Qu?n Lý Sinh Viên - BT2.2
+
+## Gi?i thi?u
+
+?ng d?ng qu?n lý thông tin sinh viên ???c xây d?ng b?ng **Windows Forms** trên n?n t?ng **.NET Framework 4.8**. Ch??ng trình cho phép ng??i dùng thêm, s?a, xóa và hi?n th? danh sách sinh viên v?i các thông tin c? b?n nh?: Mã s? sinh viên, H? tên, Gi?i tính, ?i?m trung bình và Chuyên ngành.
+
+## Ch?c n?ng
+
+- ? **Thêm sinh viên m?i**: Nh?p thông tin và thêm vào danh sách
+- ? **C?p nh?t thông tin**: S?a ??i thông tin sinh viên ?ã có
+- ? **Xóa sinh viên**: Xóa sinh viên kh?i danh sách
+- ? **Hi?n th? danh sách**: Xem toàn b? sinh viên trong b?ng
+- ? **Th?ng kê gi?i tính**: ??m s? l??ng sinh viên Nam/N?
+
+## Yêu c?u h? th?ng
+
+### Ph?n m?m c?n thi?t
+
+- **H? ?i?u hành**: Windows 7 tr? lên
+- **Framework**: .NET Framework 4.8
+- **IDE** (?? phát tri?n): Visual Studio 2019 ho?c m?i h?n
+
+### Cài ??t .NET Framework 4.8
+
+N?u máy tính ch?a có .NET Framework 4.8, t?i t?i:
+- [Microsoft .NET Framework 4.8 (Offline Installer)](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+
+## H??ng d?n cài ??t
+
+### Cách 1: Ch?y t? mã ngu?n
+
+1. **Clone repository v? máy**:
+   ```bash
+   git clone https://github.com/your-username/BT2.2.git
+   cd BT2.2
+   ```
+
+2. **M? project b?ng Visual Studio**:
+   - M? file `BT2.2.sln` ho?c `BT2.2.csproj`
+   - Ch? Visual Studio t?i các dependencies
+
+3. **Build và ch?y ch??ng trình**:
+   - Nh?n **F5** ho?c ch?n **Debug > Start Debugging**
+   - Ho?c nh?n **Ctrl+F5** ?? ch?y không debug
+
+### Cách 2: Ch?y file th?c thi (.exe)
+
+1. T?i file **BT2.2.exe** t? th? m?c `bin/Debug` ho?c `bin/Release`
+2. ??m b?o ?ã cài ??t .NET Framework 4.8
+3. Double-click vào file **BT2.2.exe** ?? ch?y
+
+## H??ng d?n s? d?ng
+
+### 1. Thêm sinh viên m?i
+
+1. Nh?p ??y ?? thông tin vào các tr??ng:
+   - **MSSV** (Mã s? sinh viên)
+   - **H? tên**
+   - **Gi?i tính** (ch?n Nam/N?)
+   - **?i?m TB** (?i?m trung bình)
+   - **Chuyên ngành** (ch?n t? dropdown)
+
+2. Nh?n nút **Thêm/S?a**
+3. Thông báo "Thêm m?i d? li?u thành công!" s? hi?n ra
+
+### 2. C?p nh?t thông tin sinh viên
+
+1. Click vào dòng sinh viên c?n s?a trong b?ng
+2. Thông tin s? t? ??ng ?i?n vào các tr??ng nh?p li?u
+3. Ch?nh s?a thông tin c?n thi?t
+4. Nh?n nút **Thêm/S?a**
+5. Thông báo "C?p nh?t d? li?u thành công!" s? hi?n ra
+
+### 3. Xóa sinh viên
+
+1. Nh?p **MSSV** c?a sinh viên c?n xóa
+2. Nh?n nút **Xóa**
+3. Xác nh?n trong h?p tho?i "B?n có mu?n xóa?"
+4. Ch?n **Yes** ?? xóa, **No** ?? h?y
+
+### 4. Xem th?ng kê
+
+- S? l??ng sinh viên **Nam** và **N?** ???c hi?n th? t? ??ng ? cu?i form
+
+## C?u trúc d? án
+
+```
+BT2.2/
+?
+??? Form1.cs                 # Logic x? lý chính
+??? Form1.Designer.cs        # Thi?t k? giao di?n (auto-generated)
+??? Form1.resx              # Resources c?a Form1
+??? Program.cs              # Entry point c?a ?ng d?ng
+??? App.config              # C?u hình ?ng d?ng
+??? BT2.2.csproj           # File project
+??? Properties/             # Thông tin assembly và resources
+    ??? AssemblyInfo.cs
+    ??? Resources.Designer.cs
+    ??? Settings.Designer.cs
+```
+
+## L?i th??ng g?p
+
+### L?i: "Vui lòng nh?p ??y ?? thông tin sinh viên!"
+**Nguyên nhân**: Ch?a ?i?n ??y ?? các tr??ng MSSV, H? tên ho?c ?i?m TB  
+**Gi?i pháp**: Ki?m tra và nh?p ??y ?? t?t c? các tr??ng b?t bu?c
+
+### L?i: "Không tìm th?y MSSV c?n xóa!"
+**Nguyên nhân**: MSSV nh?p vào không t?n t?i trong danh sách  
+**Gi?i pháp**: Ki?m tra l?i MSSV ho?c ch?n sinh viên t? b?ng tr??c khi xóa
+
+### L?i: Không ch?y ???c file .exe
+**Nguyên nhân**: Thi?u .NET Framework 4.8  
+**Gi?i pháp**: T?i và cài ??t .NET Framework 4.8 t? Microsoft
+
+## Công ngh? s? d?ng
+
+- **Ngôn ng?**: C#
+- **Framework**: .NET Framework 4.8
+- **GUI**: Windows Forms
+- **IDE**: Visual Studio
+
+## Tác gi?
+
+- **Môn h?c**: L?p trình trên môi tr??ng Windows
+- **L?p**: [?i?n tên l?p c?a b?n]
+- **Nhóm th?c hi?n**: [?i?n tên nhóm]
+- **Thành viên**:
+  - [Tên sinh viên 1] - MSSV
+  - [Tên sinh viên 2] - MSSV
+  - [Tên sinh viên 3] - MSSV
+  - [Tên sinh viên 4] - MSSV
+
+## Gi?y phép
+
+D? án này ???c phát tri?n cho m?c ?ích h?c t?p.
+
+## Liên h?
+
+N?u có th?c m?c ho?c góp ý, vui lòng liên h? qua:
+- Email: [email c?a b?n]
+- GitHub: [link GitHub profile]
+
+---
+
+? **L?u ý**: ?ây là d? án h?c t?p, vui lòng không s? d?ng cho m?c ?ích th??ng m?i.
