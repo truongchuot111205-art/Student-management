@@ -52,7 +52,8 @@ Nếu máy tính chưa có .NET Framework 4.8, tải tại:
 ## Hướng dẫn sử dụng
 
 ### 1. Thêm sinh viên mới
-<img width="276" height="464" alt="image" src="https://github.com/user-attachments/assets/a5c888a1-e0ca-44f3-9e81-1edea7ee3773" />
+
+<img width="308" height="412" alt="image" src="https://github.com/user-attachments/assets/8b76ee4a-a5cf-4ea4-a722-df901f1ecf55" />
 
 1. Nhập đầy đủ thông tin vào các trường:
    - **MSSV** (Mã số sinh viên)
@@ -62,17 +63,23 @@ Nếu máy tính chưa có .NET Framework 4.8, tải tại:
    - **Chuyên ngành** (chọn từ dropdown)
 
 2. Nhấn nút **Thêm/Sửa**
-3. Thông báo "Thêm mới dữ liệu thành công!" sẽ hiện ra
+3. <img width="301" height="459" alt="image" src="https://github.com/user-attachments/assets/b7df7c41-b24a-4045-a1ef-159f70e8b004" />
+
+4. Thông báo "Thêm mới dữ liệu thành công!" sẽ hiện ra
+<img width="906" height="610" alt="image" src="https://github.com/user-attachments/assets/b976b6a4-0a1f-4b32-8225-0c2952aceef4" />
 
 ### 2. Cập nhật thông tin sinh viên
+<img width="901" height="601" alt="image" src="https://github.com/user-attachments/assets/01c76f74-994a-4d5d-b676-b2b392bd6bbe" />
 
 1. Click vào dòng sinh viên cần sửa trong bảng
 2. Thông tin sẽ tự động điền vào các trường nhập liệu
 3. Chỉnh sửa thông tin cần thiết
 4. Nhấn nút **Thêm/Sửa**
 5. Thông báo "Cập nhật dữ liệu thành công!" sẽ hiện ra
+<img width="244" height="150" alt="image" src="https://github.com/user-attachments/assets/3e919b40-ac68-4f85-85b3-187e477b6fdf" />
 
 ### 3. Xóa sinh viên
+<img width="892" height="596" alt="image" src="https://github.com/user-attachments/assets/79fd428e-8812-458d-93ab-cc782a00ff75" />
 
 1. Nhập **MSSV** của sinh viên cần xóa
 2. Nhấn nút **Xóa**
@@ -80,6 +87,7 @@ Nếu máy tính chưa có .NET Framework 4.8, tải tại:
 4. Chọn **Yes** để xóa, **No** để hủy
 
 ### 4. Xem thống kê
+<img width="899" height="598" alt="image" src="https://github.com/user-attachments/assets/a20617f9-0b79-40e1-9842-aa79efb1e436" />
 
 - Số lượng sinh viên **Nam** và **Nữ** được hiển thị tự động ở cuối form
 
