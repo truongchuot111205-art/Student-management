@@ -132,8 +132,8 @@ BT2.2/
 ## Tác giả
 
 - **Môn học**: Lập trình trên môi trường Windows
-- **Lớp**: [Điền tên lớp của bạn]
-- **Nhóm thực hiện**: [Điền tên nhóm]
+- **Lớp**: [23DATA1]
+- **Nhóm thực hiện**: [Nhóm 10]
 - **Thành viên**:
   - [Phạm Duy Khánh] 
   - [Trân Duy Thái] 
