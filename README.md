@@ -135,10 +135,10 @@ BT2.2/
 - **Lớp**: [Điền tên lớp của bạn]
 - **Nhóm thực hiện**: [Điền tên nhóm]
 - **Thành viên**:
-  - [Tên sinh viên 1] - MSSV
-  - [Tên sinh viên 2] - MSSV
-  - [Tên sinh viên 3] - MSSV
-  - [Tên sinh viên 4] - MSSV
+  - [Phạm Duy Khánh] 
+  - [Trân Duy Thái] 
+  - [Phạm Nguyễn Minh Sơn] 
+  - [Nguyễn Nhật Lâm]
 
 ## Giấy phép
 
